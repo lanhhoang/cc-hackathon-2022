@@ -449,13 +449,13 @@
         width: 130,
         type: "donut",
       },
-      labels: ["Electronic", "Sports", "Decor", "Fashion"],
-      series: [85, 15, 50, 50],
+      labels: ["Phone Bill", "Groceries", "Utilities", "Balance"],
+      series: [15, 40, 25, 38],
       colors: [
         config.colors.primary,
-        config.colors.secondary,
-        config.colors.info,
         config.colors.success,
+        config.colors.info,
+        config.colors.secondary,
       ],
       stroke: {
         width: 5,
@@ -500,7 +500,7 @@
                 show: true,
                 fontSize: "0.8125rem",
                 color: axisColor,
-                label: "Weekly",
+                label: "Monthly",
                 formatter: function (w) {
                   return "38%";
                 },
